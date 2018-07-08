@@ -7,7 +7,7 @@ body {
     flex-direction: column;
     align-items: center;
     background: rgb(133, 2, 11);
-    background-image: url('../img/skulls.png');
+    background-image: url('./img/skulls.png');
     height: 100%;
 }
 
@@ -141,7 +141,7 @@ body {
 .sartGameBut {
     background-color: rgb(156, 10, 22);
     box-shadow: inset 0 0 60px rgb(49, 7, 7);
-    width: 7em;
+    text-decoration:none; 
     color: rgb(32, 11, 11);
     padding: .5em;
     font-size: 4em;
